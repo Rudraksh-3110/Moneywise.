@@ -2906,7 +2906,7 @@ if __name__ == "__main__":
     print("=" * 55)
     print()
     print(" Website running at:")
-    print(" http://127.0.0.1:5000")
+    print(f" http://127.0.0.1:{os.environ.get('PORT', 5000)}")
     print()
     print(" Press CTRL+C to stop.")
     print()
